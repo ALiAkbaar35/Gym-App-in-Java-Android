@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hcut"
+    tools:context=".signup">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/cut"
+        tools:layout_editor_absoluteX="-89dp"
+        tools:layout_editor_absoluteY="-86dp">
+
+        <TextView
+            android:id="@+id/amtv"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:elegantTextHeight="true"
+            android:fontFamily="@font/poppins_medium"
+            android:lineSpacingExtra="4dp"
+            android:text="Add Member Details"
+            android:textColor="#673AB7"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/cardView"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginEnd="40dp"
+            app:cardCornerRadius="100dp"
+            app:layout_constraintBottom_toBottomOf="@+id/amtv"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.88"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/amtv"
+            app:layout_constraintVertical_bias="0.51">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="40dp"
+                app:srcCompat="@drawable/add_photo" />
+
+            <ImageButton
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/browse"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/regiii"
+                android:scaleType="centerCrop" />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <EditText
+
+            android:id="@+id/amet3"
+            android:layout_width="290dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/blackbtn"
+            android:drawableLeft="@drawable/email_icon"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="Enter Email"
+            android:inputType="textWebEmailAddress"
+            android:textColor="@color/black"
+            android:textColorHint="#4C4B4B"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/amtv3"
+            app:layout_constraintTop_toBottomOf="@+id/amtv3" />
+
+
+        <TextView
+            android:id="@+id/amtv3"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Email"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.003"
+            app:layout_constraintStart_toStartOf="@+id/amtv1"
+            app:layout_constraintTop_toBottomOf="@+id/amet2" />
+
+        <EditText
+            android:id="@+id/amet2"
+            android:layout_width="290dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/blackbtn"
+            android:drawableLeft="@drawable/phone_icon"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="Enter 10 digit mobile no."
+            android:inputType="phone"
+            android:textColor="@color/black"
+            android:textColorHint="#4C4B4B"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/amtv2"
+            app:layout_constraintTop_toBottomOf="@+id/amtv2" />
+
+        <TextView
+            android:id="@+id/amtv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Contact no."
+            android:textColor="@color/black"
+
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.012"
+            app:layout_constraintStart_toStartOf="@+id/amtv1"
+            app:layout_constraintTop_toBottomOf="@+id/amet1" />
+
+
+        <TextView
+            android:id="@+id/amtv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="36dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Name"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/amtv"
+            app:layout_constraintTop_toBottomOf="@+id/amtv" />
+
+        <EditText
+            android:id="@+id/amet1"
+            android:layout_width="290dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/blackbtn"
+            android:drawableLeft="@drawable/person_icon"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="Enter UserName"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textColorHint="#4C4B4B"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.044"
+            app:layout_constraintStart_toStartOf="@+id/amtv1"
+            app:layout_constraintTop_toBottomOf="@+id/amtv1" />
+
+        <Spinner
+            app:cornerRadius="30dp"
+            android:id="@+id/radioGroup"
+            android:layout_width="290dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/back"
+            android:orientation="horizontal"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.161"
+            app:layout_constraintStart_toStartOf="@+id/amet3"
+            app:layout_constraintTop_toBottomOf="@+id/amtv6" />
+
+        <TextView
+            android:id="@+id/amtv4"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginTop="36dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Id Num"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/amet3"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+        <EditText
+            android:id="@+id/amet4"
+            android:layout_width="210dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/blackbtn"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="00-000000000-0"
+            android:inputType="date"
+            android:paddingTop="10dp"
+            android:textAlignment="center"
+            android:textColor="#4C4B4B"
+            android:textColorHint="#4C4B4B"
+            app:layout_constraintBottom_toBottomOf="@+id/amtv4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/amtv4"
+            app:layout_constraintTop_toTopOf="@+id/amtv4"
+            app:layout_constraintVertical_bias="0.444" />
+
+
+        <TextView
+            android:id="@+id/amtv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Password"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/amtv4"
+            app:layout_constraintTop_toBottomOf="@+id/amtv4" />
+
+        <EditText
+
+            android:id="@+id/amet6"
+            android:layout_width="290dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/blackbtn"
+            android:drawableLeft="@drawable/lock"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:gravity="left"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:paddingTop="6dp"
+            android:popupElevation="20dp"
+            android:textAlignment="gravity"
+            android:textColor="@color/black"
+            android:textColorHint="#4C4B4B"
+            app:layout_constraintEnd_toEndOf="@+id/radioGroup"
+            app:layout_constraintStart_toStartOf="@+id/amtv5"
+            app:layout_constraintTop_toBottomOf="@id/amtv5"
+            tools:ignore="MissingConstraints" />
+
+
+        <TextView
+            android:id="@+id/amtv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Gender"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/amtv3"
+            app:layout_constraintTop_toBottomOf="@+id/amet3" />
+
+        <Button
+            android:id="@+id/abc"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_marginTop="88dp"
+            android:backgroundTint="@color/yellow"
+            android:fontFamily="sans-serif-medium"
+            android:text="login"
+            android:textColor="@color/white"
+            app:cornerRadius="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/amtv5"
+            app:layout_constraintTop_toBottomOf="@+id/amtv5"
+            tools:layout_editor_absoluteX="41dp"
+            tools:layout_editor_absoluteY="770dp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/abcd"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_marginTop="88dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="sans-serif-medium"
+            android:text="Already Have Account"
+            android:textColor="#3F51B5"
+            app:cornerRadius="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.647"
+            app:layout_constraintStart_toStartOf="@+id/amtv5"
+            app:layout_constraintTop_toBottomOf="@+id/amtv5"
+            tools:ignore="MissingConstraints">
+
+        </Button>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

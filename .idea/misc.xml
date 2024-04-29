@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/hp/Desktop/Project/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1185" />
+        <entry key="..\:/Users/hp/Desktop/Project/app/src/main/res/drawable/hcut.xml" value="0.1185" />
+        <entry key="..\:/Users/hp/Desktop/Project/app/src/main/res/drawable/mycustomfile.xml" value="0.1185" />
+        <entry key="..\:/Users/hp/Desktop/Project/app/src/main/res/drawable/round_corner.xml" value="0.1185" />
+        <entry key="..\:/Users/hp/Desktop/Project/app/src/main/res/layout/activity_about.xml" value="0.2" />
+        <entry key="..\:/Users/hp/Desktop/Project/app/src/main/res/layout/activity_dietplan.xml" value="0.2" />
+        <entry key="..\:/Users/hp/Desktop/Project/app/src/main/res/layout/activity_eqvipments.xml" value="0.2" />
+        <entry key="..\:/Users/hp/Desktop/Project/app/src/main/res/layout/activity_exercises.xml" value="0.2" />
+        <entry key="..\:/Users/hp/Desktop/Project/app/src/main/res/layout/activity_forget_password.xml" value="0.18076923076923077" />
+        <entry key="..\:/Users/hp/Desktop/Project/app/src/main/res/layout/activity_home.xml" value="0.2" />
+        <entry key="..\:/Users/hp/Desktop/Project/app/src/main/res/layout/activity_main.xml" value="0.18076923076923077" />
+        <entry key="..\:/Users/hp/Desktop/Project/app/src/main/res/layout/activity_order.xml" value="0.18076923076923077" />
+        <entry key="..\:/Users/hp/Desktop/Project/app/src/main/res/layout/activity_signin.xml" value="0.18076923076923077" />
+        <entry key="..\:/Users/hp/Desktop/Project/app/src/main/res/layout/activity_signup.xml" value="0.18076923076923077" />
+        <entry key="..\:/Users/hp/Desktop/Project/app/src/main/res/layout/activity_start.xml" value="0.18" />
+        <entry key="..\:/Users/hp/Desktop/Project/app/src/main/res/layout/activity_trainerlist.xml" value="0.14" />
+        <entry key="..\:/Users/hp/Desktop/Project/app/src/main/res/layout/trainer.xml" value="0.2" />
+        <entry key="..\:/Users/hp/Desktop/app1/app/src/main/res/drawable/blackbtn.xml" value="0.102" />
+        <entry key="..\:/Users/hp/Desktop/app1/app/src/main/res/drawable/cut.xml" value="0.1115" />
+        <entry key="..\:/Users/hp/Desktop/app1/app/src/main/res/drawable/hcut.xml" value="0.102" />
+        <entry key="..\:/Users/hp/Desktop/app1/app/src/main/res/drawable/mybtn.xml" value="0.102" />
+        <entry key="..\:/Users/hp/Desktop/app1/app/src/main/res/drawable/mycustomfile.xml" value="0.1115" />
+        <entry key="..\:/Users/hp/Desktop/app1/app/src/main/res/font/audiowide.xml" value="0.18888888888888888" />
+        <entry key="..\:/Users/hp/Desktop/app1/app/src/main/res/font/poppins_medium.xml" value="0.19907407407407407" />
+        <entry key="..\:/Users/hp/Desktop/app1/app/src/main/res/layout/activity_about.xml" value="0.22" />
+        <entry key="..\:/Users/hp/Desktop/app1/app/src/main/res/layout/activity_dietplan.xml" value="0.2" />
+        <entry key="..\:/Users/hp/Desktop/app1/app/src/main/res/layout/activity_eqvipments.xml" value="0.2" />
+        <entry key="..\:/Users/hp/Desktop/app1/app/src/main/res/layout/activity_exercises.xml" value="0.25" />
+        <entry key="..\:/Users/hp/Desktop/app1/app/src/main/res/layout/activity_forget_password.xml" value="0.1841880341880342" />
+        <entry key="..\:/Users/hp/Desktop/app1/app/src/main/res/layout/activity_gloves.xml" value="0.17264957264957265" />
+        <entry key="..\:/Users/hp/Desktop/app1/app/src/main/res/layout/activity_home.xml" value="0.17264957264957265" />
+        <entry key="..\:/Users/hp/Desktop/app1/app/src/main/res/layout/activity_locations.xml" value="0.17264957264957265" />
+        <entry key="..\:/Users/hp/Desktop/app1/app/src/main/res/layout/activity_main.xml" value="0.15648148148148147" />
+        <entry key="..\:/Users/hp/Desktop/app1/app/src/main/res/layout/activity_order.xml" value="0.22" />
+        <entry key="..\:/Users/hp/Desktop/app1/app/src/main/res/layout/activity_signin.xml" value="0.17264957264957265" />
+        <entry key="..\:/Users/hp/Desktop/app1/app/src/main/res/layout/activity_signup.xml" value="0.1841880341880342" />
+        <entry key="..\:/Users/hp/Desktop/app1/app/src/main/res/layout/activity_start.xml" value="0.17962962962962964" />
+        <entry key="..\:/Users/hp/Desktop/app1/app/src/main/res/layout/activity_trainerlist.xml" value="0.17264957264957265" />
+        <entry key="..\:/Users/hp/Desktop/app1/app/src/main/res/layout/trainer.xml" value="0.1841880341880342" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.17264957264957265" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
